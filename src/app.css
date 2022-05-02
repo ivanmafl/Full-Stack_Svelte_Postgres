@@ -1,0 +1,14 @@
+:root {
+    font-family: Mulish, serif;
+    --primary-color: #b9c6d2;
+    --secondary-color: #d0dde9;
+    --tertiary-color: #edf0f8;
+}
+
+
+body {
+    /*background-color:var(--primary-color);*/
+    background: linear-gradient(180deg, var(--secondary-color), var(--tertiary-color));
+    min-height: 100vh;
+    margin: 0;
+}
